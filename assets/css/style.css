@@ -50,7 +50,6 @@ header {
 .Pages li {
     list-style: none;
     display: inline-block;
-    border-right: 1px solid;
     float: left;
 }
 
@@ -178,13 +177,29 @@ footer {
 
 
 @media all and (max-width : 980px) {
-    /* Styles */
-    }
+
+}
 
 @media all and (max-width : 768px) {
 
 }
 
 @media all and (max-width : 640px) {
+
+    header {
+        justify-content: center;
+    }
+
+    #myName {
+        padding: 0 100%;
+        font-size: 2em;
+        
+    }
+
+    #Main {
+        margin: 0 25px;
+    }
+
+
 
 }
