@@ -251,6 +251,15 @@ footer {
         margin: 0 25px;
     }
 
+    .Pages li {
+        padding: 0;
+    }
+
+    .Pages a {
+        padding: 0;
+        /* align-self: center; */
+    }
+
 
 
 }
