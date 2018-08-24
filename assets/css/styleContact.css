@@ -187,22 +187,73 @@ footer {
 
 @media all and (max-width : 980px) {
 
-}
+    header {
+        display: inline;
+        /* float: left; */
+    }
 
+    #Main {
+        margin: 0 25px;
+    }
+
+    #myName {
+        display: block;
+        margin: 0;  
+        width: 50%;
+        float: left;
+        padding: 30px;
+    }
+
+    .Pages li {
+        display: inline-block;
+    }
+
+    .Pages a {
+        margin: 20px;
+    }
+}
 @media all and (max-width : 768px) {
 
+    header {
+        display: inline;
+        /* float: left; */
+    }
+
+    #Main {
+        margin: 0 25px;
+    }
+
+    #myName {
+        display: block;
+        margin: 0;  
+        width: 50%;
+        float: left;
+        padding: 30px;
+    }
+
+    .Pages li {
+        display: inline-block;
+    }
+
+    .Pages a {
+        top: 50%;
+        padding: 33px 0;
+    }
 }
 
 @media all and (max-width : 640px) {
 
     header {
+        display: flex;
         justify-content: center;
+        flex-flow: wrap;
+        align-items: center;
     }
 
     #myName {
-        padding: 0 100%;
+        min-width: 640px;
         font-size: 2em;
-        
+        text-align: center;
     }
 
     #Main {
